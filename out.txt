@@ -1,0 +1,86 @@
+fr_calibrate: max_hit_t=244, min_hit_t=122
+fr_calibrate: fr_hit_threshold=200
+*** Secret tag is '5'.
+spec_tag_test: arch_tag=5, spec_tag=0, arch_signal=+, spec_signal=-
+fr_histogram_dump:
+  ',' (0x2c): 22.70% 
+  '-' (0x2d): 94.24% <----
+  '+' (0x2b): 97.60% 
+spec_tag_test: arch_tag=5, spec_tag=1, arch_signal=+, spec_signal=-
+fr_histogram_dump:
+  ',' (0x2c): 21.63% 
+  '-' (0x2d): 94.83% <----
+  '+' (0x2b): 100.00% 
+spec_tag_test: arch_tag=5, spec_tag=2, arch_signal=+, spec_signal=-
+fr_histogram_dump:
+  ',' (0x2c): 20.90% 
+  '-' (0x2d): 94.56% <----
+  '+' (0x2b): 100.00% 
+spec_tag_test: arch_tag=5, spec_tag=3, arch_signal=+, spec_signal=-
+fr_histogram_dump:
+  ',' (0x2c): 21.91% 
+  '-' (0x2d): 94.96% <----
+  '+' (0x2b): 100.00% 
+spec_tag_test: arch_tag=5, spec_tag=4, arch_signal=+, spec_signal=-
+fr_histogram_dump:
+  ',' (0x2c): 20.77% 
+  '-' (0x2d): 94.71% <----
+  '+' (0x2b): 100.00% 
+vvvvvvvvvv
+spec_tag_test: arch_tag=5, spec_tag=5, arch_signal=+, spec_signal=-
+fr_histogram_dump:
+  ',' (0x2c): 20.27% 
+  '-' (0x2d): 99.98% <----
+  '+' (0x2b): 100.00% 
+^^^^^^^^^^
+spec_tag_test: arch_tag=5, spec_tag=6, arch_signal=+, spec_signal=-
+fr_histogram_dump:
+  ',' (0x2c): 21.13% 
+  '-' (0x2d): 94.82% <----
+  '+' (0x2b): 100.00% 
+spec_tag_test: arch_tag=5, spec_tag=7, arch_signal=+, spec_signal=-
+fr_histogram_dump:
+  ',' (0x2c): 20.63% 
+  '-' (0x2d): 94.86% <----
+  '+' (0x2b): 100.00% 
+spec_tag_test: arch_tag=5, spec_tag=8, arch_signal=+, spec_signal=-
+fr_histogram_dump:
+  ',' (0x2c): 20.93% 
+  '-' (0x2d): 94.76% <----
+  '+' (0x2b): 100.00% 
+spec_tag_test: arch_tag=5, spec_tag=9, arch_signal=+, spec_signal=-
+fr_histogram_dump:
+  ',' (0x2c): 20.62% 
+  '-' (0x2d): 94.78% <----
+  '+' (0x2b): 100.00% 
+spec_tag_test: arch_tag=5, spec_tag=10, arch_signal=+, spec_signal=-
+fr_histogram_dump:
+  ',' (0x2c): 21.16% 
+  '-' (0x2d): 94.66% <----
+  '+' (0x2b): 100.00% 
+spec_tag_test: arch_tag=5, spec_tag=11, arch_signal=+, spec_signal=-
+fr_histogram_dump:
+  ',' (0x2c): 21.20% 
+  '-' (0x2d): 95.11% <----
+  '+' (0x2b): 100.00% 
+spec_tag_test: arch_tag=5, spec_tag=12, arch_signal=+, spec_signal=-
+fr_histogram_dump:
+  ',' (0x2c): 20.73% 
+  '-' (0x2d): 94.95% <----
+  '+' (0x2b): 100.00% 
+spec_tag_test: arch_tag=5, spec_tag=13, arch_signal=+, spec_signal=-
+fr_histogram_dump:
+  ',' (0x2c): 21.11% 
+  '-' (0x2d): 94.64% <----
+  '+' (0x2b): 100.00% 
+spec_tag_test: arch_tag=5, spec_tag=14, arch_signal=+, spec_signal=-
+fr_histogram_dump:
+  ',' (0x2c): 21.02% 
+  '-' (0x2d): 94.65% <----
+  '+' (0x2b): 100.00% 
+spec_tag_test: arch_tag=5, spec_tag=15, arch_signal=+, spec_signal=-
+fr_histogram_dump:
+  ',' (0x2c): 20.71% 
+  '-' (0x2d): 94.85% <----
+  '+' (0x2b): 100.00% 
+*** Leaked tag is '5' (secret tag was '5').
